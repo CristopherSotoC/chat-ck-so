@@ -47,15 +47,15 @@ export const SendMessage = () => {
                 <div className="input_msg_write col-sm-9">
                     <input
                         type="text"
-                        className="write_msg"
-                        placeholder="Mensaje..."
+                        className="write_msg text-white"
+                        placeholder="Message... "
                         value={ mensaje }
                         onChange={ onChange }
                     />
                 </div>
                 <div className="col-sm-3 text-center">
                     <button className="msg_send_btn mt-3" type="submit">
-                        enviar
+                        Send
                     </button>
                 </div>
             </div>

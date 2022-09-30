@@ -133,7 +133,6 @@ iframe {
 
 .wrap-login100 {
   width: 390px;
-  background: #fff;
   border-radius: 10px;
   position: relative;
 }
@@ -144,11 +143,17 @@ iframe {
 
 .login100-form {
   width: 100%;
+  
+}
+
+.login50-form {
+  width: 100%;
+  text-align: right;
 }
 
 .login100-form-title {
   font-size: 30px;
-  color: #403866;
+  color: #faf9ff;
   line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
@@ -244,7 +249,7 @@ iframe {
 
 .label-checkbox100 {
   font-size: 16px;
-  color: #999999;
+  color: #ffffff;
   line-height: 1.2;
 
   display: block;

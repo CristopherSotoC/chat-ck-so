@@ -11,7 +11,7 @@ export const SocketContext = createContext();
 
 export const SocketProvider = ({ children }) => {
 
-    const { socket, online, conectarSocket, desconectarSocket } = useSocket('http://localhost:8080');
+    const { socket, online, conectarSocket, desconectarSocket } = useSocket('https://so-socket-chat-backend.herokuapp.com');
                                                                             //http://localhost:8080/api
                                                                             //https://so-socket-chat-backend.herokuapp.com
 

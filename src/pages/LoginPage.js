@@ -115,8 +115,8 @@ export const LoginPage = () => {
                     </label>
                 </div>
 
-                <div className="col text-right">
-                    <Link to="/auth/register" className="txt1">
+                <div className="col  text-right">
+                    <Link to="/auth/register" className="txt1 text-white">
                         New Acc?
                     </Link>
                 </div>

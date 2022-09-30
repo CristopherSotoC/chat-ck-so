@@ -94,7 +94,7 @@ export const RegisterPage = () => {
             
             <div className="row mb-3">
                 <div className="col text-right">
-                    <Link to="/auth/login" className="txt1">
+                    <Link to="/auth/login" className="txt1 text-white">
                         Have an Acc?
                     </Link>
                 </div>
