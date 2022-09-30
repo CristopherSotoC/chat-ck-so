@@ -29,7 +29,7 @@ export const SidebarChatItem = ({ usuario }) => {
         scrollToBottom('mensajes');
         }
     return (
-        <div className={`chat_list ${ (usuario.uid == chatActivo) && 'active_chat' }`}
+        <div className={`chat_list ${ (usuario.uid === chatActivo) && 'active_chat' }`}
             onClick={onClick}
         >
 

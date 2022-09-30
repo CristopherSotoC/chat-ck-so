@@ -66,9 +66,6 @@ export const AuthProvider = ({ children }) => {
     
         }
 
-
-
-        
         const verificaToken = useCallback( async() => {
 
             const token = localStorage.getItem('token');
@@ -129,10 +126,6 @@ export const AuthProvider = ({ children }) => {
             logged: false,
         });
     }
-
-
-
-
 
 
     return (
