@@ -7,7 +7,7 @@ export const ChatSelect = () => {
                 <hr />
                 <h3>Seleccione un chat</h3>
                 <span>
-                    Para iniciar una conversación
+                    To Start a Conversation
                 </span>
 
             </div>

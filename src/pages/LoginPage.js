@@ -25,7 +25,6 @@ export const LoginPage = () => {
             }));
         }
        
-
     }, [])
 
 
@@ -70,7 +69,7 @@ export const LoginPage = () => {
             onSubmit={ onSubmit }
         >
             <span className="login100-form-title mb-3">
-                Chat - Ingreso
+                Log In
             </span>
             
             <div className="wrap-input100 validate-input mb-3">
@@ -112,13 +111,13 @@ export const LoginPage = () => {
                         readOnly
                     />
                     <label className="label-checkbox100">
-                        Recordarme
+                        Remember Me
                     </label>
                 </div>
 
                 <div className="col text-right">
                     <Link to="/auth/register" className="txt1">
-                        Nueva cuenta?
+                        New Acc?
                     </Link>
                 </div>
             </div>
@@ -129,7 +128,7 @@ export const LoginPage = () => {
                     className="login100-form-btn"
                     disabled={!todoOk()}
                 >
-                    Ingresar
+                    Log in
                 </button>
             </div>
 
